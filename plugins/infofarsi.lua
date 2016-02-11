@@ -208,7 +208,7 @@ local function run(msg, matches)
 	 text = text..'نام گروه : '..msg.to.title..'\n'
      text = text..'ایدی گروه : '..msg.to.id
     end
-	text = text..'\n\n https://telegram.me/BlacklifeTGch Team'
+	text = text..'\n\n @mohammad20162015'
     return send_msg(receiver, text, ok_cb, true)
     end
   end
